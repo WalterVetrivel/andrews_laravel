@@ -1,0 +1,108 @@
+.btn {
+    font-size: 22px;
+    font-weight: 700;
+	 border-radius: 0;
+}
+
+/* Home Page */
+.btn-outline-info {
+    border: 1px solid #EAB543;
+    color: #EAB543;
+}
+
+.btn-outline-info:hover,
+.btn-outline-info:hover {
+    border: 1px solid #EAB543;
+    background-color: #EAB543;
+    color: #fff;
+}
+
+.btn-outline-secondary {
+    border: 1px solid #3B3B98;
+    color: #3B3B98;
+}
+
+.btn-outline-secondary:hover,
+.btn-outline-secondary:active {
+    border: 1px solid #3B3B98;
+    background-color: #3B3B98;
+    color: #fff;
+}
+
+/* Resume */
+
+.btn-1-resume {
+    border: 1px solid #58B19F;
+    color: #58B19F;
+}
+
+.btn-1-resume:hover,
+.btn-1-resume:active {
+    border: 1px solid #58B19F;
+    background-color: #58B19F;
+    color: #fff;
+}
+
+.btn-2-resume {
+    border: 1px solid #BDC581;
+    color: #BDC581;
+}
+
+.btn-2-resume:hover,
+.btn-2-resume:active {
+    border: 1px solid #BDC581;
+    background-color: #BDC581;
+    color: #fff;
+}
+
+/* Projects */
+
+.btn-projects {
+    border: 1px solid #FD7272;
+    color: #FD7272;
+}
+
+.btn-projects:hover,
+.btn-projects:active {
+    border: 1px solid #FD7272;
+    background-color: #FD7272;
+    color: #fff;
+}
+
+/* Research */
+.btn-research {
+    border: 1px solid #6D214F;
+    color: #6D214F;
+}
+
+.btn-research:hover,
+.btn-research:active {
+    border: 1px solid #6D214F;
+    background-color: #6D214F;
+    color: #fff;
+}
+
+/* Publication */
+.btn-publication {
+    border: 1px solid #1B9CFC;
+    color: #1B9CFC;
+}
+
+.btn-publication:hover,
+.btn-publication:active {
+    background-color: #1B9CFC;
+    border: 1px solid #1B9CFC;
+    color: #fff;
+}
+
+.btn-2-publication {
+    border: 1px solid #F97F51;
+    color: #F97F51;
+}
+
+.btn-2-publication:hover,
+.btn-2-publication:active {
+    background-color: #F97F51;
+    border: 1px solid #F97F51;
+    color: #fff;
+}

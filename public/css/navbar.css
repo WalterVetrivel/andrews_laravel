@@ -1,0 +1,19 @@
+.sticky-navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navbar {
+    z-index: 999;
+    transition: all .3s;
+}
+
+.active {
+    border-bottom: 2px solid #eab543;
+}
+
+.fixed-top .active {
+    background-color: #f3f3f3;
+}

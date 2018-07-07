@@ -1,0 +1,21 @@
+@import "bootstrap.min.css";
+
+@import "scrollbar.css";
+
+@import "general.css";
+
+@import "button.css";
+@import "heading.css";
+@import "horizontal-rule.css";
+
+@import "navbar.css";
+@import "header.css";
+@import "footer.css";
+
+@import "home.css";
+@import "resume.css";
+@import "research.css";
+@import "projects.css";
+@import "publications.css";
+
+@import "media-queries.css";

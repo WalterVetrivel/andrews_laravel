@@ -1,0 +1,21 @@
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(44, 58, 71, 0), rgba(44, 58, 71, 0.75), rgba(44, 58, 71, 0));
+}
+
+hr.white {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
+hr.yellow {
+    background-image: linear-gradient(to right, rgba(234, 181, 67, 0), rgba(234, 181, 67, 0.75), rgba(234, 181, 67, 0));
+}
+
+hr.red {
+    background-image: linear-gradient(to right, rgba(253, 114, 114, 0), rgba(253, 114, 114, 0.75), rgba(253, 114, 114, 0));
+}
+
+hr.green {
+    background-image: linear-gradient(to right, rgba(189, 197, 129, 0), rgba(189, 197, 129, 0.75), rgba(189, 197, 129, 0));
+}

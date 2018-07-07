@@ -1,0 +1,80 @@
+#resume-landing {
+    background: linear-gradient(rgba(0, 0, 0, .15), rgba(0, 0, 0, .15)), url(../img/resume.jpg);
+}
+
+.employment .fa-briefcase {
+    color: #fff;
+    background-color: #BDC581;
+}
+
+.employment h5 {
+    color: #BDC581;
+}
+
+#education {
+    background-color: #f3f3f3;
+}
+
+.education .fa-graduation-cap {
+    color: #fff;
+    background-color: #58B19F;
+}
+
+.institution {
+    color: #58B19F;
+}
+
+.skills {
+    background-color: rgba(189, 197, 129, .9);
+}
+
+.subjects {
+    background-color: rgba(88, 177, 159, .9);
+}
+
+#skills_subjects {
+    background-image: url(../img/skills_subjects.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#skills_subjects ul {
+    list-style: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#skills_subjects h4,
+#skills_subjects .fa {
+    color: #182C61;
+}
+
+#awards_achievements {
+    background-color: #2C3A47;
+    color: #fff;
+}
+
+#awards_achievements .fa-trophy {
+    background-color: #EAB543;
+    color: #fff;
+}
+
+.award h5 {
+    color: #EAB543;
+}
+
+.reference .position {
+    color: #BDC581;
+}
+
+.reference .fa-user {
+    background-color: #BDC581;
+    color: #fff;
+}
+
+.reference .fa-building,
+.reference .fa-phone,
+.reference .fa-envelope {
+    color: #BDC581;
+}

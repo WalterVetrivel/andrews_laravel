@@ -1,0 +1,32 @@
+#publications-landing {
+    background: linear-gradient(rgba(0, 0, 0, .12), rgba(0, 0, 0, .12)), url(../img/resume1.jpg);
+}
+
+.publication .blue-author {
+    color: #1B9CFC;
+}
+
+.publication .orange-author {
+    color: #F97F51;
+}
+
+.publication .international-icon,
+.publication .book-icon {
+    background-color: #1B9CFC;
+    color: #fff;
+}
+
+.publication .national-icon,
+.publication .journal-icon {
+    background-color: #F97F51;
+    color: #fff;
+}
+
+#national {
+    background-color: #f3f3f3;
+}
+
+#books {
+    background-color: #2C3A47;
+    color: #fff;
+}

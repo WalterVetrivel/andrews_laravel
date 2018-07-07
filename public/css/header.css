@@ -1,0 +1,12 @@
+header {
+    background-position: center !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    background-repeat: no-repeat !important;
+    min-height: 100vh !important;
+}
+
+header .container,
+header .row {
+    height: 100% !important;
+}

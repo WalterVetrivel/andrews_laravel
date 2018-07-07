@@ -1,0 +1,49 @@
+#landing h1,
+#landing p {
+    color: #fff;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 56px;
+}
+
+header h1 {
+    color: #fff;
+    mix-blend-mode: multiply;
+}
+
+#landing h1 {
+    background-color: #2C3A47;
+}
+
+#research-landing h1 {
+    background-color: #6D214F;
+}
+
+#resume-landing h1 {
+    background-color: #58B19F;
+}
+
+#projects-landing h1 {
+    background-color: #FD7272;
+}
+
+#publications-landing h1 {
+    background-color: #1B9CFC;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+h3 {
+    font-size: 32px;
+    font-weight: 900;
+}
+
+h4 {
+    font-weight: 700;
+}

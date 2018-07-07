@@ -1,0 +1,56 @@
+#research-landing {
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../img/research2.jpg);
+}
+
+.current-research {
+    list-style: none;
+}
+
+.current-research .fa {
+    color: #6D214F;
+}
+
+.research-project .fa-search {
+    background-color: #6D214F;
+    color: #fff;
+}
+
+.research-project .subtext {
+    color: #6D214F;
+}
+
+#supervision {
+    background-color: #2C3A47;
+    color: #fff;
+}
+
+.supervision .completed-icon {
+    background-color: #BDC581;
+    color: #fff;
+}
+
+.supervision .undergoing-icon {
+    background-color: #EAB543;
+    color: #fff;
+}
+
+.supervision .completed-text {
+    color: #BDC581;
+}
+
+.supervision .undergoing-text {
+    color: #EAB543;
+}
+
+#research-funding {
+    background-color: #f3f3f3;
+}
+
+.research-fund .fa-money {
+    background-color: #6D214F;
+    color: #fff;
+}
+
+.research-fund .subtext {
+    color: #6D214F;
+}
