@@ -27,7 +27,7 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-8">
+                <div class="col-md-8">
                     @for($i = 0;$i < count($projects);$i++)
                         @if($i > 0)
                             <hr>

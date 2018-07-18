@@ -17,6 +17,8 @@ use App\Figures;
 use App\PresentInvolvement;
 use App\Subject;
 use App\Skill;
+use App\Collaboration;
+use App\Affiliation;
 
 class MainController extends Controller
 {
@@ -57,5 +59,11 @@ class MainController extends Controller
 
     public function publications() {
         return view('publications');
+    }
+
+    public function collaborationsAffiliations() {
+        $collaborations = Collaboration::all();
+        $affiliations = Affiliation::all();
+        return view('collaborations', compact('collaborations', 'affiliations'));
     }
 }

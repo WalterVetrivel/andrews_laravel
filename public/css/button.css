@@ -106,3 +106,15 @@
     border: 1px solid #F97F51;
     color: #fff;
 }
+
+/* Collaborations & Affiliations */
+.btn-collaborations {
+    border: 1px solid #182C61;
+    color: #182C61;
+}
+
+.btn-collaborations:hover {
+    background-color: #182C61;
+    border: 1px solid #182C61;
+    color: #fff;
+}

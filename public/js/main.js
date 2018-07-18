@@ -101,4 +101,12 @@ sr.reveal('.current-research li', {
     duration: 1000,
     origin: 'top'
 }, 50);
+sr.reveal('.collaborations-list li', {
+    duration: 1000,
+    origin: 'top'
+}, 50);
+sr.reveal('.affiliations-list li', {
+    duration: 1000,
+    origin: 'top'
+}, 50);
 sr.reveal('#footer', {duration: 1000});

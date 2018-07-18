@@ -20,8 +20,8 @@
                 <li class="nav-item {{ Request::is('publications') ? 'active' : '' }}">
                     <a href="{{ route('publications') }}" class="nav-link">My Publications</a>
                 </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">More</a>
+                <li class="nav-item {{ Request::is('collaborations') ? 'active' : '' }}">
+                    <a href="{{ route('collaborations') }}" class="nav-link">Collaborations & Affiliations</a>
                 </li>
             </ul>
         </div>
