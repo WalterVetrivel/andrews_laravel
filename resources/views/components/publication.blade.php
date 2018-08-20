@@ -5,7 +5,7 @@
                 <i class="fa fa-newspaper-o p-2 mb-3 rounded-circle international-icon list-icon"></i>
             @elseif($type == 'national')
                 <i class="fa fa-newspaper-o p-2 mb-3 rounded-circle national-icon list-icon"></i>
-            @elseif($type == 'book')
+            @elseif($type == 'book' || $type == 'book_chapter')
                 <i class="fa fa-book p-2 mb-3 rounded-circle book-icon list-icon"></i>
             @elseif($type == 'journal')
                 <i class="fa fa-newspaper-o p-2 mb-3 rounded-circle journal-icon list-icon"></i>
@@ -17,7 +17,7 @@
                 <p class="authors blue-author">
             @elseif($type == 'national')
                 <p class="authors orange-author">
-            @elseif($type == 'book')
+            @elseif($type == 'book' || $type == 'book_chapter')
                 <p class="authors blue-author">
             @elseif($type == 'journal')
                 <p class="authors orange-author">

@@ -8,8 +8,8 @@
                 <div class="col-12 col-md-8 mt-5 text-center">
                     <h1 class="text-center p-5 mt-5">Professional resume of Prof. Dr. S. Andrews</h1>
                     <hr class="my-5 white">
-                    <a href="#" class="btn btn-lg btn-outline-secondary btn-1-resume mr-2 mb-2">Download PDF version <i class="fa fa-download"></i></a>
-                    <a data-scroll href="#work-experience" class="btn btn-lg btn-outline-info btn-2-resume mb-2">View online version <i class="fa fa-eye"></i></a>
+                    {{-- <a href="#" class="btn btn-lg btn-outline-secondary btn-1-resume mr-2 mb-2">Download PDF version <i class="fa fa-download"></i></a> --}}
+                    <a data-scroll href="#work-experience" class="btn btn-lg btn-outline-info btn-1-resume mb-2">View Resume <i class="fa fa-eye"></i></a>
                 </div>
             </div>
         </div>

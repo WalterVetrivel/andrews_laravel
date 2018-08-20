@@ -25,7 +25,7 @@
             </div>
         </div>
         <div class="row">
-            @for($i = 0;$i < 60; $i++)
+            @for($i = 0;$i < count($international_publications); $i++)
                 <div class="col-md-6">
                     @if($i > 1)
                     <hr>
@@ -35,13 +35,13 @@
                             international
                         @endslot
                         @slot('title')
-                        Single Trial Source Separation of VEP Signals Using Selective Principal Components
+                            {{$international_publications[$i]->title}}
                         @endslot
                         @slot('authors')
-                        S.Andrews, Ramaswamy Palaniappan and Vijanth S.Asirvadam
+                            {{$international_publications[$i]->authors}}
                         @endslot
                         @slot('description')
-                        Proc. IEE MEDSIP2004, International Conference on Advances in Medical signal Processing, Malta G.C, EU, ISBN: 0-86431-439-7, pp. 51-57, 5-8 September 2004
+                            {{$international_publications[$i]->description}}
                         @endslot
                     @endcomponent
                 </div>
@@ -60,20 +60,23 @@
             </div>
         </div>
         <div class="row">
-            @for($i = 0;$i < 2; $i++)
+            @for($i = 0;$i < count($national_publications); $i++)
                 <div class="col-md-6">
+                    @if($i > 1)
+                    <hr>
+                    @endif
                     @component('components.publication')
                         @slot('type')
                             national
                         @endslot
                         @slot('title')
-                        Single Trial Source Separation of VEP Signals Using Selective Principal Components
+                            {{$national_publications[$i]->title}}
                         @endslot
                         @slot('authors')
-                        S.Andrews, Ramaswamy Palaniappan and Vijanth S.Asirvadam
+                            {{$national_publications[$i]->authors}}
                         @endslot
                         @slot('description')
-                        Proc. IEE MEDSIP2004, International Conference on Advances in Medical signal Processing, Malta G.C, EU, ISBN: 0-86431-439-7, pp. 51-57, 5-8 September 2004
+                            {{$national_publications[$i]->description}}
                         @endslot
                     @endcomponent
                 </div>
@@ -94,67 +97,47 @@
         <div class="row">
             <div class="col-md-6">
                 <h3 class="mb-5 text-center">Books</h3>
-                @component('components.publication')
-                    @slot('type')
-                        book
-                    @endslot
-                    @slot('title')
-                        Problem Solving and Python Programming
-                    @endslot
-                    @slot('authors')
-                        S.Andrews & M.Sivasnakari
-                    @endslot
-                    @slot('description')
-                        2017 Thakur Publications., ISBN: 978-93- 87093-22-5
-                    @endslot
-                @endcomponent
+                @for($i = 0;$i < count($books); $i++)
+                    @if($i > 1)
+                    <hr>
+                    @endif
+                    @component('components.publication')
+                        @slot('type')
+                            book
+                        @endslot
+                        @slot('title')
+                            {{$books[$i]->title}}
+                        @endslot
+                        @slot('authors')
+                            {{$books[$i]->authors}}
+                        @endslot
+                        @slot('description')
+                            {{$books[$i]->description}}
+                        @endslot
+                    @endcomponent
+                @endfor
             </div>
             <div class="col-md-6">
                 <h3 class="mb-5 text-center">Book chapters</h3>
-                @component('components.publication')
-                    @slot('type')
-                        book
-                    @endslot
-                    @slot('title')
-                        Problem Solving and Python Programming
-                    @endslot
-                    @slot('authors')
-                        S.Andrews & M.Sivasnakari
-                    @endslot
-                    @slot('description')
-                        2017 Thakur Publications., ISBN: 978-93- 87093-22-5
-                    @endslot
-                @endcomponent
-                <hr class="white">
-                @component('components.publication')
-                    @slot('type')
-                        book
-                    @endslot
-                    @slot('title')
-                        Problem Solving and Python Programming
-                    @endslot
-                    @slot('authors')
-                        S.Andrews & M.Sivasnakari
-                    @endslot
-                    @slot('description')
-                        2017 Thakur Publications., ISBN: 978-93- 87093-22-5
-                    @endslot
-                @endcomponent
-                <hr class="white">
-                @component('components.publication')
-                    @slot('type')
-                        book
-                    @endslot
-                    @slot('title')
-                        Problem Solving and Python Programming
-                    @endslot
-                    @slot('authors')
-                        S.Andrews & M.Sivasnakari
-                    @endslot
-                    @slot('description')
-                        2017 Thakur Publications., ISBN: 978-93- 87093-22-5
-                    @endslot
-                @endcomponent
+                @for($i = 0;$i < count($book_chapters);$i++)
+                    @if($i > 0)
+                    <hr class="white">
+                    @endif
+                    @component('components.publication')
+                        @slot('type')
+                            book
+                        @endslot
+                        @slot('title')
+                            {{$book_chapters[$i]->title}}
+                        @endslot
+                        @slot('authors')
+                            {{$book_chapters[$i]->authors}}
+                        @endslot
+                        @slot('description')
+                            {{$book_chapters[$i]->description}}
+                        @endslot
+                    @endcomponent
+                @endfor
             </div>
         </div>
     </div>
@@ -170,7 +153,7 @@
             </div>
         </div>
         <div class="row">
-            @for($i = 0;$i < 28; $i++)
+            @for($i = 0;$i < count($journals); $i++)
                 <div class="col-md-6">
                     @if($i > 1)
                     <hr>
@@ -180,13 +163,13 @@
                             journal
                         @endslot
                         @slot('title')
-                            Appropriate Normalisation For Selective Eigen Rate Method In Separating Principal Components of VEP and EEG In BCI
+                            {{$journals[$i]->title}}
                         @endslot
                         @slot('authors')
-                            S.Andrews, Nidal Kamel, David C.L Ngo and Ramaswamy Palaniappan
+                            {{$journals[$i]->authors}}
                         @endslot
                         @slot('description')
-                            Multimedia Cyber Scape online International Journal, 1-6, Vol 3, Number 4, 2005, ISSN No: 1675-9281, Multimedia University Pub
+                            {{$journals[$i]->description}}
                         @endslot
                     @endcomponent
                 </div>

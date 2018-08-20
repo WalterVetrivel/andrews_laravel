@@ -8,6 +8,7 @@ use App\Award;
 use App\Education;
 use App\Employment;
 use App\Project;
+use App\Publication;
 use App\Research;
 use App\ResearchFund;
 use App\CurrentResearch;
@@ -58,7 +59,12 @@ class MainController extends Controller
     }
 
     public function publications() {
-        return view('publications');
+        $international_publications = Publication::where('type', 'international')->get();
+        $national_publications = Publication::where('type', 'national')->get();
+        $books = Publication::where('type', 'book')->get();
+        $book_chapters = Publication::where('type', 'book_chapter')->get();
+        $journals = Publication::where('type', 'journal')->get();
+        return view('publications', compact('international_publications', 'national_publications', 'books', 'book_chapters', 'journals'));
     }
 
     public function collaborationsAffiliations() {
