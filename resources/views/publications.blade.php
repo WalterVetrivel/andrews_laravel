@@ -30,6 +30,9 @@
                     @if($i > 1)
                     <hr>
                     @endif
+                    @if($i == 1)
+                    <hr class="d-md-none">
+                    @endif
                     @component('components.publication')
                         @slot('type')
                             international
@@ -64,6 +67,9 @@
                 <div class="col-md-6">
                     @if($i > 1)
                     <hr>
+                    @endif
+                    @if($i == 1)
+                    <hr class="d-md-none">
                     @endif
                     @component('components.publication')
                         @slot('type')
@@ -101,6 +107,9 @@
                     @if($i > 1)
                     <hr>
                     @endif
+                    @if($i == 1)
+                    <hr class="d-md-none">
+                    @endif
                     @component('components.publication')
                         @slot('type')
                             book
@@ -122,6 +131,9 @@
                 @for($i = 0;$i < count($book_chapters);$i++)
                     @if($i > 0)
                     <hr class="white">
+                    @endif
+                    @if($i == 1)
+                    <hr class="white d-md-none">
                     @endif
                     @component('components.publication')
                         @slot('type')
@@ -157,6 +169,9 @@
                 <div class="col-md-6">
                     @if($i > 1)
                     <hr>
+                    @endif
+                    @if($i == 1)
+                    <hr class="d-md-none">
                     @endif
                     @component('components.publication')
                         @slot('type')

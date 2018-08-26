@@ -8,7 +8,7 @@
                 <h1 class="text-center p-5 mt-5">My Collaborations & Affiliations</h1>
                 <hr class="my-5 white">
                 <a data-scroll href="#collaborations" class="btn btn-outline-secondary btn-lg btn-collaborations">
-                    See collaborations & Affiliations
+                    See list
                     <i class="fa fa-angle-double-down"></i>
                 </a>
             </div>

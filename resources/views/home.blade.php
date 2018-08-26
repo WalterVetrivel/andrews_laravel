@@ -80,7 +80,7 @@
             </div>
             <div class="row">
                 <div class="col-12 text-center">
-                    <a href="{{ route('resume') }}" class="btn btn-outline-secondary btn-lg">View full resume &rarr;</a>
+                    <a href="{{ route('resume') }}" class="btn btn-outline-secondary btn-lg">View resume &rarr;</a>
                 </div>
             </div>
         </div>
@@ -126,12 +126,12 @@
                 <div class="col-md-6 projects p-5">
                     <h2 class="mb-4">Projects</h2>
                     <p class="mb-4">Over the years of my career, I've worked hands on on numerous projects. Click below to see a list of the projects I've been involved in.</p>
-                    <a href="{{ route('projects') }}" class="btn btn-lg btn-outline-secondary">Check out my projects &rarr;</a>
+                    <a href="{{ route('projects') }}" class="btn btn-lg btn-outline-secondary">My projects &rarr;</a>
                 </div>
                 <div class="col-md-6 research p-5">
                     <h2 class="mb-4">Research</h2>
                     <p class="mb-4">I have also accumulated significant research experience by working on top notch research projects. Click below to see what research I've been involved in.</p>
-                    <a href="{{ route('research') }}" class="btn btn-lg btn-outline-info">Check out my research &rarr;</a>
+                    <a href="{{ route('research') }}" class="btn btn-lg btn-outline-info">My research &rarr;</a>
                 </div>
             </div>
         </div>

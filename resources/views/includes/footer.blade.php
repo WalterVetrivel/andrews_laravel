@@ -13,10 +13,12 @@
                     <li><i class="fa fa-fax mr-2"></i>{{$contacts[0]->fax}}</li>
                     <li><i class="fa fa-mobile mr-2"></i>{{$contacts[0]->mobile}}</li>
                 </ul>
+                <hr class="yellow d-md-none">
                 <h4 class="my-3">Email</h4>
                 <ul>
                     <li><i class="fa fa-envelope mr-2"></i>{{$contacts[0]->email}}</li>
                 </ul>
+                <hr class="yellow d-md-none">
             </div>
             <div class="col-md-6">
                 <h4 class="mb-3">Address</h4>

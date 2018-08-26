@@ -6,24 +6,42 @@
 
 @media only screen and (max-width:768px) {
     body {
-        font-size: 16px;
+        font-size: 15px;
     }
-
     h1 {
-        font-size: 48px;
+        font-size: 45px;
     }
-
     h2 {
-        font-size: 40px;
+        font-size: 39px;
     }
-
     h5 {
-        font-size: 18px;
+        font-size: 17px;
     }
-
     #landing img {
         display: inline-block;
         margin: 0 auto;
         height: 270px;
+    }
+    #footer li,
+    #footer ul,
+    .skills-list,
+    .skills-list li,
+    .subjects-list,
+    .subjects-list li,
+    .current-research,
+    .current-research li {
+        margin-left: 0 !important;
+        padding-left: 0 !important
+    }
+    #footer {
+        text-align: center !important
+    }
+    .btn {
+        font-size: 18px;
+        font-weight: 400;
+    }
+    h2,
+    h3 {
+        font-weight: 700;
     }
 }

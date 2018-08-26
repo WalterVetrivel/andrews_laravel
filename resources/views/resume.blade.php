@@ -101,7 +101,7 @@
                                 @endforeach
                             </ul>
                             <h4 class="mt-3">Multimedia</h4>
-                            <ul class="skills-list">
+                            <ul class="skills-list mb-3">
                                 @foreach($multimedia_skills as $skill)
                                     <li><i class="fa fa-check mr-2"></i>{{$skill->skill}}</li>
                                 @endforeach

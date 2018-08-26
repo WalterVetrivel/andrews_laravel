@@ -1,5 +1,6 @@
 <nav class="navbar navbar-expand-md py-5 navbar-dark sticky-navbar" id="navbar">
     <div class="container">
+        <a href="{{ route('home') }}" class="d-md-none navbar-brand"><i class="fa fa-home"></i></a>
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navLinks">
             <span class="navbar-toggler-icon"></span>
         </button>
