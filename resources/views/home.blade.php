@@ -6,7 +6,7 @@
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <div class="col-md-8 text-center order-2">
-                    <h1 class="p-3 mb-3"><span class="mb-2 d-inline-block">Hi there!</span><br>I'm Prof. Dr. S. Andrews</h1>
+                    <h1 class="px-3 py-5 mt-5 mb-3"><span class="mb-2 d-inline-block">Hi there!</span><br>I'm Prof. Dr. S. Andrews</h1>
                     <hr class="white my-5">
                     <p class="my-3">{{$bio[0]->intro}}</p>
                     <a data-scroll href="#bio" class="btn btn-lg btn-outline-info d-inline-block mt-3">
@@ -169,4 +169,32 @@
         </div>
     </section>
     {{-- End Awards & Achievements --}}
+
+    {{-- Gallery Section --}}
+    <section id="home-gallery" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="mb-5 text-center">Gallery</h2>
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-md-4 mb-2">
+                    <img src="{{ URL::asset('img/gallery/7.jpg') }}" alt="Image 1" class="img-fluid">
+                </div>
+                <div class="col-md-4 mb-2">
+                    <img src="{{ URL::asset('img/gallery/8.jpg') }}" alt="Image 1" class="img-fluid">
+                </div>
+                <div class="col-md-4 mb-2">
+                    <img src="{{ URL::asset('img/gallery/16.jpg') }}" alt="Image 1" class="img-fluid">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <a href="{{ route('gallery') }}" class="btn btn-lg btn-outline-secondary">See full gallery &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    {{-- End Gallery --}}
 @endsection

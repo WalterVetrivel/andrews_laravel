@@ -1,10 +1,11 @@
 .btn {
     font-size: 22px;
     font-weight: 700;
-	 border-radius: 0;
+    border-radius: 0;
 }
 
 /* Home Page */
+
 .btn-outline-info {
     border: 1px solid #EAB543;
     color: #EAB543;
@@ -70,6 +71,7 @@
 }
 
 /* Research */
+
 .btn-research {
     border: 1px solid #6D214F;
     color: #6D214F;
@@ -83,6 +85,7 @@
 }
 
 /* Publication */
+
 .btn-publication {
     border: 1px solid #1B9CFC;
     color: #1B9CFC;
@@ -108,6 +111,7 @@
 }
 
 /* Collaborations & Affiliations */
+
 .btn-collaborations {
     border: 1px solid #182C61;
     color: #182C61;
@@ -116,5 +120,18 @@
 .btn-collaborations:hover {
     background-color: #182C61;
     border: 1px solid #182C61;
+    color: #fff;
+}
+
+/* Gallery */
+
+.btn-gallery {
+    border: 1px solid #2C3A47;
+    color: #2C3A47;
+}
+
+.btn-gallery:hover {
+    background-color: #2C3A47;
+    border: 1px solid #2C3A47;
     color: #fff;
 }

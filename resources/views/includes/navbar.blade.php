@@ -24,6 +24,9 @@
                 <li class="nav-item {{ Request::is('collaborations') ? 'active' : '' }}">
                     <a href="{{ route('collaborations') }}" class="nav-link">Collaborations & Affiliations</a>
                 </li>
+                <li class="nav-item {{ Request::is('gallery') ? 'active' : '' }}">
+                    <a href="{{ route('gallery') }}" class="nav-link">Gallery</a>
+                </li>
             </ul>
         </div>
     </div>

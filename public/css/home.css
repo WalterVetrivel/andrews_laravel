@@ -38,12 +38,10 @@
 }
 
 .projects {
-    /* background: linear-gradient(rgba(234, 181, 67, .85), rgba(234, 181, 67, .85)), url(../img/projects.jpg); */
     background: linear-gradient(rgba(234, 181, 67, .85), rgba(234, 181, 67, .85));
 }
 
 .research {
-    /* background: linear-gradient(rgba(59, 59, 152, .8), rgba(59, 59, 152, .8)), url(../img/research.jpg); */
     background: linear-gradient(rgba(59, 59, 152, .8), rgba(59, 59, 152, .8));
     background-position: center;
     background-size: cover;
@@ -59,4 +57,8 @@
 
 #awards .fa {
     color: #EAB543;
+}
+
+#home-gallery {
+    background-color: #f3f3f3;
 }

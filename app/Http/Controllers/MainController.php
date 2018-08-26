@@ -72,4 +72,8 @@ class MainController extends Controller
         $affiliations = Affiliation::all();
         return view('collaborations', compact('collaborations', 'affiliations'));
     }
+
+    public function gallery() {
+        return view('gallery');
+    }
 }

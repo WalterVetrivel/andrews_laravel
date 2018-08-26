@@ -17,3 +17,4 @@ Route::get('/research', 'MainController@research')->name('research');
 Route::get('/projects', 'MainController@projects')->name('projects');
 Route::get('/publications', 'MainController@publications')->name('publications');
 Route::get('/collaborations', 'MainController@collaborationsAffiliations')->name('collaborations');
+Route::get('/gallery', 'MainController@gallery')->name('gallery');

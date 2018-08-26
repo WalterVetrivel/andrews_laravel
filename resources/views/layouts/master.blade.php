@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="{{ URL::asset('css/font-awesome.min.css') }}">
     <link rel="stylesheet" href="{{ URL::asset('css/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ URL::asset('css/style.min.css') }}">
+    <link rel="stylesheet" href="{{ URL::asset('css/style.css') }}">
     <title>Prof. Dr. S. Andrews</title>
 </head>
 <body>

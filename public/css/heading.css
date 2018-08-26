@@ -38,6 +38,10 @@ header h1 {
     background-color: #182C61;
 }
 
+#gallery-landing h1 {
+    background-color: #2C3A47;
+}
+
 h2 {
     font-size: 48px;
     font-weight: 900;

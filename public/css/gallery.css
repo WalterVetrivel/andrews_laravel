@@ -1,0 +1,8 @@
+#gallery-landing {
+    background: linear-gradient(rgba(255, 255, 255, .15), rgba(255, 255, 255, .15)), url(../img/gallery.jpg);
+}
+
+#gallery img.gallery-thumbnail {
+    height: 220px;
+    width: 100%;
+}
